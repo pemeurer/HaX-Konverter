@@ -1,0 +1,14 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="Tachymeter_Beispiel_QGIS">
+    <SrcDataSource relativeToVRT="1">Tachymeter_Beispiel_QGIS.csv</SrcDataSource>
+    <SrcLayer>Tachymeter_Beispiel_QGIS</SrcLayer>
+    <GeometryType>wkbPoint25D</GeometryType>
+    <LayerSRS>EPSG:25832</LayerSRS>
+    <GeometryField encoding="PointFromColumns" x="x" y="y" z="z"/>
+    <Field name="ID" type="String"/>
+    <Field name="x" type="Real"/>
+    <Field name="y" type="Real"/>
+    <Field name="z" type="Real"/>
+    <Field name="Punktcode" type="String"/>
+  </OGRVRTLayer>
+</OGRVRTDataSource>

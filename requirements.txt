@@ -1,0 +1,3 @@
+# Optional: Drag & Drop von Dateien und Ordnern in das Programmfenster.
+# Ohne dieses Paket funktioniert der Konverter ebenfalls (Auswahl über die Buttons).
+tkinterdnd2>=0.3

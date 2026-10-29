@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# Editoren & Betriebssystem
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Messdaten und Ausgaben nie versehentlich veröffentlichen –
+# erlaubt sind nur die synthetischen Beispiele und die Testdaten.
+*.csv
+*.csvt
+*.vrt
+*.txt
+*.asc
+!requirements.txt
+!beispiele/**
+!tests/**
+
+# Die Ausnahmen oben dürfen Bytecode und Systemdateien nicht wieder einschließen
+__pycache__/
+*.py[cod]
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,6 @@
+# Einheitliche Zeilenenden im Repository
+* text=auto eol=lf
+*.png binary
+
+# Beispieldateien byte-genau erhalten (Zeilenenden und Kodierung gehören zum Beispiel)
+beispiele/** -text
